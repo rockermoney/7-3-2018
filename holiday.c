@@ -2,11 +2,9 @@
    
 int main() {  
     int day;
-    
     printf("Enter Day Number (1 = Monday ..... 7 = Sunday)\n");  
     scanf("%d", &day);  _
-  
-    switch(day){
+  switch(day){
         case 1 : printf("Monday\n");
             break;
         case 2 : printf("Tuesday\n");
@@ -23,6 +21,5 @@ int main() {
             break;
         default: printf("Invalid Input !!!!\n");          
     }
-  
-    return 0;  
+  return 0;  
 }
